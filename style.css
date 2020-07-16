@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'ChampagneLimousines';
+    src: url('fonts/Champagne\ &\ Limousines.ttf');
+}
+
+body {
+    margin: 0;
+    background-image: url(img/bigcitymain.jpg);
+    background-size: cover;
+    font-family: ChampagneLimousines;
+}
+
+.main {
+    max-width: 768px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 1px white;
+}
+
+.header {
+    height: 480px;
+    background-image: url(img/bigcity.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.header-line {
+    margin: 0;
+    padding: 25% 0 15% 0;
+    text-shadow: 0 0 3px black;
+    font-size: 3rem;
+    color: white;
+}
+
+.header-line-by {
+    margin: 0;
+    text-shadow: 0 0 3px black;
+    font-size: 2rem;
+    color: #04E7DC;
+}
+
+.first-task {
+    min-height: 800px;
+    background-image: url(img/underdome.jpg);
+    background-size: cover;
+    /* background-color: #9EB7C6; */
+}
+
+.flex-pos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img-book {
+    margin: 43px 0 0 0;
+    width: 50%;
+    text-align: center;
+}
+
+.img-shadow {
+    box-shadow: 0 0 1px 1px white;
+}
+
+.main-book {
+    width: 50%;
+}
+
+.title-book {
+    margin: 43px 0 0 0;
+    text-shadow: 0 0 3px black;
+    font-size: 3rem;
+    color: white;
+}
+
+.title-book-by {
+    margin: 0;
+    font-size: 2rem;
+    color: #D20002;
+}
+
+.book-info {
+    margin: 80px 0 0 0;
+    text-shadow: 0 0 3px black;
+    font-size: 1.7rem;
+    color: #DEAB1D;
+}
+
+.book-review {
+    min-height: 400px;
+     background-image: url(img/tower.jpg);
+    background-size: cover; 
+    background-color: rgba(4, 4, 30, 0.8);
+}
+.book-review-div{
+    width: 100%;
+}
+
+.book-review-title{
+    text-shadow: 0 0 3px black;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.book-reviews{
+    text-shadow: 0 0 3px black;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: white;
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+}
+
+@media (max-width:480px) {
+    .img-book {
+        width: 100%;
+    }
+    .main-book {
+        width: 100%;
+    }
+    .title-book {
+        text-align: center;
+    }
+    .book-info {
+        margin: 0 20px 20px 20px;
+    }
+}
